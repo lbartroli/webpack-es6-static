@@ -7,7 +7,7 @@ Maybe it will be useful for you too.
 
 Feel free to send any recommendation or doubt to my [email](mailto:lgbartroli@gmail.com).
 
->### Run webpack-dev-server width HMR ***(on localhost:3000)***
+>### Run webpack-dev-server with HMR ***(on localhost:3000)***
 ```
 $ npm start
 ```
