@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+.vscode
+npm-debug.log
+
+frontend/dist
+node_modules
+stats.json
+jsconfig.json

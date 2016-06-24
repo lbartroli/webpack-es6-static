@@ -1,0 +1,63 @@
+{
+  "name": "gisi",
+  "version": "1.0.0",
+  "description": "Empresa de mantenimiento industrial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server development",
+    "start:prod": "npm run clear && babel-node server production",
+    "clear": "rimraf frontend/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lbartroli@bitbucket.org/lbartroli/gisi.git"
+  },
+  "keywords": [
+    "gisi",
+    "mantenimiento",
+    "industrial"
+  ],
+  "author": "lbartroli",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lbartroli/gisi#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.6",
+    "bootstrap-webpack": "0.0.5",
+    "consolidate": "^0.14.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "imports": "^1.0.0",
+    "jquery": "^3.0.0",
+    "moment": "^2.13.0",
+    "mongoose": "^4.5.1",
+    "serve-favicon": "^2.3.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.21.0",
+    "imports-loader": "^0.6.5",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "postcss-loader": "^0.9.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.10.0"
+  }
+}
