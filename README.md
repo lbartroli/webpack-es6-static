@@ -1,4 +1,4 @@
-# WEBPACK - ES6 - EXPRESS - MONGOOSE - BOOTSTRAP
+# WEBPACK-ES6-EXPRESS-MONGOOSE-BOOTSTRAP
 ## Boilerplate for static pages
 
 I've been looking for a boilerplate like this one for so long, but none fit my needs, so I decided to build my own boilerplate. 
