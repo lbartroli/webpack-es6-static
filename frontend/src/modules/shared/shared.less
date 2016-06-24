@@ -4,6 +4,10 @@ html {
     height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -16,9 +20,8 @@ body {
         .header {
             display: flex;
             align-items: center;
-            height: 100px;
+            min-height: 100px;
             background-color: #222;
-            border-color: #080808;
             .container {
                 display: flex;
                 justify-content: center;
@@ -28,6 +31,7 @@ body {
         }
         .navbar {
             border-radius: 0;
+            border: none;
         }
         .content {
             flex: 1;
@@ -35,7 +39,7 @@ body {
         .footer {
             display: flex;
             align-items: center;
-            height: 150px;
+            min-height: 150px;
             background-color: #222;
             border-color: #080808;
             .container {
