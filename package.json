@@ -31,7 +31,7 @@
     "imports": "^1.0.0",
     "jquery": "^3.0.0",
     "moment": "^2.13.0",
-    "mongoose": "^4.5.1",
+    "mongoose": "^6.4.6",
     "serve-favicon": "^2.3.0",
     "swig": "^1.4.2"
   },
